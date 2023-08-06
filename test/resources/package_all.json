@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "dependencies": {
+    "@dep/withat": "^1.0",
+    "dep": "^1.0",
+    "dep": "^1.0"
+  },
+  "devDependencies": {
+    "@dev/withat": "^1.0",
+    "devdep": "^1.0"
+  },
+  "peerDependencies": {
+    "peerdep": "^1.0 || ^2.0 || ^3.0"
+  }
+}

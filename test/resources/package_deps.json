@@ -1,0 +1,8 @@
+{
+  "name": "demo",
+  "dependencies": {
+    "@dep/withat": "^1.0",
+    "dep": "^1.0",
+    "dep": "^1.0"
+  }
+}
