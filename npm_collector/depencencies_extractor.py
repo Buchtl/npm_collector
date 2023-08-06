@@ -1,7 +1,7 @@
 import json
 
 
-# returns a dict of dependencies where key = package name an value = semantic version
+# returns a dict of dependencies where key = package name and value = semantic version
 def list_dependencies(file) -> dict:
     all_deps = dict()
     package_json = json.load(file)
