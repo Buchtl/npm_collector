@@ -26,6 +26,6 @@ def set_of_deps(tag: str, json_object: any) -> set:
 if __name__ == "__main__":
     deps = list_dependencies(open("../test/resources/package_all.json"))
     for dep in deps:
-        print("npm pack " + dep + "@\"" + deps[dep] + "\"")
+        print(f'npm pack {dep}@\" {deps[dep]}\"')
 
 
